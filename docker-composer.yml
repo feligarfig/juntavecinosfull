@@ -1,0 +1,5 @@
+host: host.docker.internal
+user: root
+password: (vacío)
+dbname: juntavecinos
+port: 3306

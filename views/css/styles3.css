@@ -1,0 +1,167 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+.quienessomos {
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1400px; 
+}
+
+
+
+h2, h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FF4081;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.phrase{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+#mapa {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.containerquienes {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+
+.right-column {
+    flex: 1;
+    padding-left: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+
+.event-img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.event-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.location {
+    margin-top: 20px;
+}
+
+
+.event-info {
+    margin-top: 20px;
+}
+
+.event-info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF4081;
+    margin-bottom: 15px;
+}
+
+.event-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        flex: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    
+    .event-img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    
+    #mapa {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
